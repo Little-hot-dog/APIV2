@@ -14,6 +14,8 @@ class SystemInfoResponse(BaseModel):
     value: str
     time_date: datetime
 
+class RawDataUpdate(BaseModel):
+    data: dict
 
 #new code
 class CriticalPointCreate(BaseModel):
